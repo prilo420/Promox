@@ -29,5 +29,25 @@ Nombre: Juan Felipe Criollo Valderrama
 9. cconfiguramos los procesadores a 4
 10. se repite todo para el Nodo2
 
+---
+
 ## Power shell
-<img src="N" alt="">
+<img src="N.png" alt="">
+
+---
+## Instalacion de los Nodos
+
+1. seleccionamos Install Promox VE (Graphical)
+
+<img src="ca1.png" alt="">
+
+2. Configuramos el idioma y la zona
+
+<img src="ca2.png" alt="">
+
+3. Ingresamos un correo y contraseña
+
+<img src="ca3.png" alt="">
+
+4. Configuramos la red
+<img src="ca4.png" alt="">
