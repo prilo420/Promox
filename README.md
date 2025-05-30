@@ -12,10 +12,9 @@ Nombre: Juan Felipe Criollo Valderrama
 
 <img src="ca0.0.png" alt="">
 
-5. Configuramos la Memoria de Inicio
-
-<img src="ca0.1.png" alt="">
-
+5. Configuramos la Memoria de Inicio 
+* 5000MB Nodo1
+* 4500MB nodo2
 6. Configuramos la Conexion
    
 <img src="ca0.2.png" alt="">
