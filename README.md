@@ -50,3 +50,9 @@ Nombre: Juan Felipe Criollo Valderrama
 
 4. Configuramos la red
 <img src="ca4.png" alt="">
+
+5. seleccionamos instalar
+
+---
+* quitamos la sio para que no volverlo a instalar
+<img src="ca4.png" alt="">
