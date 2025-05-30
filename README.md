@@ -26,7 +26,7 @@ Nombre: Juan Felipe Criollo Valderrama
 <img src="ca0.3.png" alt="">
 
 8. seleccionamos siguiente/ terminar
-9. cconfiguramos los procesadores a 4
+9. cconfiguramos para que tenga 4 procesadores
 10. se repite todo para el Nodo2
 
 ---
