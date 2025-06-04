@@ -57,6 +57,7 @@ Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 <img src="ca3.png" alt="">
 
 4. Configuramos la red
+   
 HotsName | Pve1 | Pve2
 -------- | ---- | ----
 Ip Address |  172.27.43.10 |172.27.45.11
@@ -68,3 +69,12 @@ DNS Sever | 8.8.8.8 | 8.8.8.8
 6. seleccionamos instalar
 * quitamos la ISO para no volverlo a instalar
 <img src="ca4.png" alt="">
+
+7. Iniciamos la M Virtual
+* Ingresamos el usuario root con la contaseña
+* Ingresamos la URL al Navegador
+<img src="u.png" alt="">
+
+--- 
+## Pagina Web Promox
+* 
