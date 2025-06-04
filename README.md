@@ -54,5 +54,5 @@ Nombre: Juan Felipe Criollo Valderrama
 5. seleccionamos instalar
 
 ---
-* quitamos la sio para que no volverlo a instalar
+* quitamos la ISO para no volverlo a instalar
 <img src="ca4.png" alt="">
