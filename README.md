@@ -13,8 +13,8 @@ Nombre: Juan Felipe Criollo Valderrama
 <img src="ca0.0.png" alt="">
 
 5. Configuramos la Memoria de Inicio 
-* 5000MB Nodo1
-* 4500MB nodo2
+* 4096MB Nodo1
+* 4096MB nodo2
 6. Configuramos la Conexion
    
 <img src="ca0.2.png" alt="">
@@ -52,7 +52,5 @@ Nombre: Juan Felipe Criollo Valderrama
 <img src="ca4.png" alt="">
 
 5. seleccionamos instalar
-
----
 * quitamos la ISO para no volverlo a instalar
 <img src="ca4.png" alt="">
