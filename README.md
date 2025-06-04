@@ -31,8 +31,16 @@ Nombre: Juan Felipe Criollo Valderrama
 ---
 
 ## Power shell
+* entramos a power sheell como administrador
+* Habilitamos la virtualización anidada con este comando 
 <img src="N.png" alt="">
 
+```
+Set-VMProcessor -VMName "Nodo1" -ExposeVirtualizationExtensions $true
+```
+```
+Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
+```
 ---
 ## Instalacion de los Nodos
 
