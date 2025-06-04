@@ -76,5 +76,15 @@ DNS Sever | 8.8.8.8 | 8.8.8.8
 <img src="u.png" alt="">
 
 --- 
-## Pagina Web Promox
+## Acceder vía Web:
+
+Pve1 | Pve2
+---- | ----------------------
+https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
+
+Nodo1: Datacenter -> Cluster -> Create Cluster (ej: nombre cluster-pve).
+
+Nodo2: Datacenter -> Cluster -> Join Cluster (ingresar IP del Nodo1 y contraseña de root).
+
+Verificación: Ambos nodos aparecen en Datacenter -> Cluster.
 * 
