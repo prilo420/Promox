@@ -57,8 +57,12 @@ Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 <img src="ca3.png" alt="">
 
 4. Configuramos la red
+HotsName PVe1
+Ip Address
+Gateway 
+DNS Sever |
 <img src="ca4.png" alt="">
 
-5. seleccionamos instalar
+6. seleccionamos instalar
 * quitamos la ISO para no volverlo a instalar
 <img src="ca4.png" alt="">
