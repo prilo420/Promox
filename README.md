@@ -57,10 +57,11 @@ Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 <img src="ca3.png" alt="">
 
 4. Configuramos la red
-HotsName PVe1
-Ip Address
-Gateway 
-DNS Sever |
+HotsName | Pve1 | Pve2
+Ip Address |  172.27.43.10 |172.27.45.11
+Gateway | 172.27.43.1 | 172.27.45.1
+DNS Sever | 8.8.8.8 | 8.8.8.8
+
 <img src="ca4.png" alt="">
 
 6. seleccionamos instalar
