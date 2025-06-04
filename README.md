@@ -58,6 +58,7 @@ Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 
 4. Configuramos la red
 HotsName | Pve1 | Pve2
+-------- | ---- | ----
 Ip Address |  172.27.43.10 |172.27.45.11
 Gateway | 172.27.43.1 | 172.27.45.1
 DNS Sever | 8.8.8.8 | 8.8.8.8
