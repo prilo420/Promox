@@ -91,7 +91,7 @@ DNS Sever | 8.8.8.8 | 8.8.8.8
 
 Pve1 | Pve2
 ---- | ----------------------
-https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
+https://<172.30.240.10>:8006. | https://<172.30.240.11>:8006.
 
 * Nodo1: Datacenter -> Cluster -> Create Cluster ( nombre cluster-pve).
 
@@ -146,7 +146,8 @@ sudo nano /etc/exports
 ```
 
 * Añadimos en /etc/exports:
-
+  
+<img src="l1.png" alt="">
 ```
 /srv/pve-shared 192.168.137.0/24(rw,sync,no_subtree_check)
 ```
