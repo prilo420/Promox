@@ -95,7 +95,11 @@ https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
 
 * Nodo1: Datacenter -> Cluster -> Create Cluster ( nombre cluster-pve).
 
+  <img src="cl1.png" alt="">
+
 * Nodo2: Datacenter -> Cluster -> Join Cluster (ingresar IP del Nodo1 y contraseña de root).
+
+<img src="cl2.png" alt="">
 
 * Verificación: Ambos nodos aparecen en Datacenter -> Cluster.
 
