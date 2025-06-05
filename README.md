@@ -61,7 +61,7 @@ Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 HotsName | Pve1 | Pve2
 -------- | ---- | ------------
 Ip Address |  172.30.240.10/20 | 172.30.240.11/20
-Gateway | 172.30.240.1 | 172.27.45.1
+Gateway | 172.30.240.1 | 172.30.240.1
 DNS Sever | 8.8.8.8 | 8.8.8.8
 
 <img src="ca4.png" alt="">
