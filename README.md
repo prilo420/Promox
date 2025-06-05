@@ -148,6 +148,7 @@ sudo nano /etc/exports
 * Añadimos en /etc/exports:
   
 <img src="l1.png" alt="">
+
 ```
 /srv/pve-shared 192.168.137.0/24(rw,sync,no_subtree_check)
 ```
@@ -162,4 +163,40 @@ sudo systemctl restart nfs-kernel-server.
 * ID: nfs-shared.
 * Server: IP de la VM NFS-Server.
 * Export: /srv/pve-shared.
+
+---
   
+## Creamos Contenedores LXC
+
+1. Descargamos la Plantilla:
+* Nodo Proxmox: local (pve) -> CT Templates -> Templates (ej: Debian 12).
+
+2. Crear Contenedores:
+
+Contenedor1 (en pve1):
+
+ID: 101.
+
+Red: DHCP (o IP manual).
+
+Iniciar y acceder por consola.
+
+Instalar nginx:
+
+bash
+apt update && apt install nginx -y
+systemctl start nginx
+Contenedor2 (en pve2):
+
+ID: 102.
+
+Instalar SSH:
+
+bash
+apt install openssh-server -y
+systemctl start ssh
+Verificar desde Host (Hyper-V):
+
+Web: http://<IP-Contenedor1> (debe mostrar página de nginx).
+
+SSH: ssh root@<IP-Contenedor2>.
