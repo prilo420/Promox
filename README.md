@@ -126,3 +126,15 @@ https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
 * Configuramos EL Nombre del servidor y el del usuario
 
 <img src="in4.png" alt="">
+
+* Reiniciamos ahora
+  
+<img src="In5.png" alt="">
+
+3. Instalar y Configurar NFS:
+
+```
+sudo apt update && sudo apt install nfs-kernel-server -y
+sudo mkdir /srv/pve-shared
+sudo nano /etc/exports
+```
