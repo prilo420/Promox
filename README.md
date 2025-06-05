@@ -164,7 +164,12 @@ sudo nano /etc/exports
 <img src="l1.png" alt="">
 
 ```
-/srv/pve-shared 192.168.137.0/24(rw,sync,no_subtree_check)
+/srv/compartido 172.27.32.10(rw,sync,no_subtree_check)
+/srv/compartido 172.27.32.11(rw,sync,no_subtree_check)
+```
+* Exportamos
+```
+sudo exporfs -a
 ```
 * Reiniciar servicio:
 
