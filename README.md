@@ -141,7 +141,21 @@ https://<172.30.240.10>:8006. | https://<172.30.240.11>:8006.
 
 ```
 sudo apt update && sudo apt install nfs-kernel-server -y
-sudo mkdir /srv/pve-shared
+```
+* Creamos la carpeta para compartir
+```
+sudo mkdir -p /srv/nfs/compartido
+```
+* Le cambiamos el grupo
+```
+sudo chown nobody:nogroup /srv/nfs/compartido
+```
+* Le damos permisos
+```
+sudo chmod 777 /srv/nfs/compartido
+```
+* Abrimos
+```
 sudo nano /etc/exports
 ```
 
