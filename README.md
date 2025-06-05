@@ -97,12 +97,13 @@ https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
 
   <img src="cl1.png" alt="">
 
-* Nodo2: Datacenter -> Cluster -> Join Cluster (ingresar IP del Nodo1 y contraseña de root).
+* Nodo2: Datacenter -> Cluster -> Join Cluster (ingresamos la  informacion de union del Nodo1, ingresar IP del Nodo1 y contraseña de root).
 
 <img src="cl2.png" alt="">
 
 * Verificación: Ambos nodos aparecen en Datacenter -> Cluster.
 
+<img src="nodos.png" alt="">
 ---
 
 ## Creamos Almacenamiento Compartido (NFS)
