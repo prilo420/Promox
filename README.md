@@ -68,9 +68,11 @@ DNS Sever | 8.8.8.8 | 8.8.8.8
 
 6. seleccionamos instalar
 * quitamos la ISO para no volverlo a instalar
-<img src="ca4.png" alt="">
+<img src="ca5.png" alt="">
 
 7. Iniciamos la M Virtual
+   
+<img src="g.png" alt="">
 * Ingresamos el usuario root con la contaseña
 * Ingresamos la URL al Navegador
 <img src="u.png" alt="">
