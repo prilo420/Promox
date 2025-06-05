@@ -160,6 +160,9 @@ sudo systemctl restart nfs-kernel-server.
 
 3. Añadir NFS a Proxmox:
 * En la web de Proxmox: Datacenter -> Storage -> Add -> NFS.
+
+<img src="st1.png" alt="">
+
 * ID: nfs-shared.
 * Server: IP de la VM NFS-Server.
 * Export: /srv/pve-shared.
