@@ -109,5 +109,20 @@ https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
 * Configuramos la Red: Default Switch.
 * Instalar y Configurar NFS:
   
-2. Iniciamos para instalar
- * df
+2. Instalacion del Sever
+* Try or Install Ubuntu Server
+  
+<img src="in1.png" alt="">
+
+* Seleccionamos el idioma y el teclado (Español) 
+* Seleccionamos UBUNTU Server(minized)
+  
+  <img src="In2.png" alt="">
+
+* Red se deja en automatico DHCP
+  
+  <img src="in3.png" alt="">
+
+* Configuramos EL Nombre del servidor y el del usuario
+
+<img src="in4.png" alt="">
