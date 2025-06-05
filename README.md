@@ -33,7 +33,9 @@ Nombre: Juan Felipe Criollo Valderrama
 ## Power shell
 * entramos a power sheell como administrador
 * Habilitamos la virtualización anidada con este comando 
+
 <img src="N.png" alt="">
+
 
 ```
 Set-VMProcessor -VMName "Nodo1" -ExposeVirtualizationExtensions $true
@@ -41,7 +43,9 @@ Set-VMProcessor -VMName "Nodo1" -ExposeVirtualizationExtensions $true
 ```
 Set-VMProcessor -VMName "Nodo2" -ExposeVirtualizationExtensions $true
 ```
+
 ---
+
 ## Instalacion de los Nodos
 
 1. seleccionamos Install Promox VE (Graphical)
@@ -68,16 +72,20 @@ DNS Sever | 8.8.8.8 | 8.8.8.8
 
 6. seleccionamos instalar
 * quitamos la ISO para no volverlo a instalar
+  
 <img src="ca5.png" alt="">
 
 7. Iniciamos la M Virtual
    
 <img src="g.png" alt="">
+
 * Ingresamos el usuario root con la contaseña
 * Ingresamos la URL al Navegador
+  
 <img src="u.png" alt="">
 
 --- 
+
 ## Crear el Cluster en Promox
 * Accedemos a la vía Web de Promox:
 
@@ -85,12 +93,21 @@ Pve1 | Pve2
 ---- | ----------------------
 https://<172.27.43.1>:8006. | https://<172.27.45.1>:8006.
 
-* Nodo1: Datacenter -> Cluster -> Create Cluster (ej: nombre cluster-pve).
+* Nodo1: Datacenter -> Cluster -> Create Cluster ( nombre cluster-pve).
 
 * Nodo2: Datacenter -> Cluster -> Join Cluster (ingresar IP del Nodo1 y contraseña de root).
 
 * Verificación: Ambos nodos aparecen en Datacenter -> Cluster.
 
+---
 
+## Creamos Almacenamiento Compartido (NFS)
 
- 
+1.Crear VM para NFS:
+* Nombre: NFS
+* Ubuntu Server Minimal (900 MB RAM, 10 GB disco).
+* Configuramos la Red: Default Switch.
+* Instalar y Configurar NFS:
+  
+2. Iniciamos para instalar
+ * df
