@@ -265,5 +265,11 @@ pveam download compartido debian-12-turnkey-zoneminder_18.0-1_amd64.tar.gz
 * Se deja predeterminado
 <img src="lxc7.png" alt="">
 
-* Revisamos y le damos a terminar
+* Revisamos y le damos a Finalizar
 <img src="lxc8.png" alt="">
+
+4.2 Contenedor2:
+* Se hace la misma vuelta con configuracion de la red y la creacion del contenedor
+
+<img src="lxc9.png" alt="">
+
