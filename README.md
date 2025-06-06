@@ -1,4 +1,4 @@
-º# Promox
+# Promox
 
 Nombre: Juan Felipe Criollo Valderrama
 
