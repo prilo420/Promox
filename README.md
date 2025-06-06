@@ -227,17 +227,26 @@ systemctl restart networking
 
 <img src="co3.png" alt="">
 
-3. Crear Contenedores:
+2. Descargar la plantilla
+* Actualizamos la lista de plantillas disponibles:
+```
+pveam update
+```
+* Visualizamos las plantillas disponibles
+```
+pveam available | more
+```
+* Descargamos la plantilla al almacenamiento (compartido):
+```
+pveam download compartido debian-12-turnkey-zoneminder_18.0-1_amd64.tar.gz
+```
 
-Contenedor1 (en pve1):
+4. Crear Contenedores:
 
-ID: 101.
+* Contenedor1:
+  
+  
 
-Red: DHCP (o IP manual).
-
-Iniciar y acceder por consola.
-
-Instalar nginx:
 
 bash
 apt update && apt install nginx -y
