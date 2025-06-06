@@ -225,7 +225,7 @@ ifreload -a
 systemctl restart networking
 ```
 
-<img src="co3png" alt="">
+<img src="co3.png" alt="">
 
 3. Crear Contenedores:
 
