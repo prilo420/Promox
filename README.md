@@ -188,7 +188,7 @@ sudo systemctl restart nfs-kernel-server.
   
 ## Creacion y configuacion de Contenedores LXC
 
-1. configuramos la conexion a internet en los Contenedores:
+1. configuramos la conexion a internet en los Contenedores (MV Nodo1).
 * Configuramos este archivo /etc/network/interfaces
 ```
 sudo nano  /etc/network/interfaces
@@ -227,7 +227,7 @@ systemctl restart networking
 
 <img src="co3.png" alt="">
 
-2. Descargar la plantilla
+2. Descargar la plantilla (Nodo1).
 * Actualizamos la lista de plantillas disponibles:
 ```
 pveam update
