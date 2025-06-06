@@ -214,6 +214,19 @@ net.ipv4.ip_forward=1
 ```
 <img src="co2.png" alt="">
 
+*  Ponemos esto para aplicar los cambios
+```
+sysctl -p
+```
+```
+ifreload -a
+```
+```
+systemctl restart networking
+```
+
+<img src="co3png" alt="">
+
 3. Crear Contenedores:
 
 Contenedor1 (en pve1):
