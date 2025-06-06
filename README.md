@@ -243,13 +243,27 @@ pveam download compartido debian-12-turnkey-zoneminder_18.0-1_amd64.tar.gz
 
 4. Crear Contenedores:
 
-* Contenedor1:
-  
+4.1 Contenedor1:
+*  Configuramos  el CT ID, Nombre del Host, Nodo y ponemos la contraseña
 <img src="lxc1.png" alt=""> 
- 
+
+* seleccionamos la plantilla y el alamcenamiento 
 <img src="lxc2.png" alt="">
 
+* Se deja en predeterminado 
 <img src="lxc3.png" alt="">
 
+* Le ponemos 2 Nucleos 
 <img src="lxc4.png" alt="">
 
+* Se deja en predeterminado
+<img src="lxc5.png" alt="">
+
+*  Configuramos el Puente, Ponemos la IPv4 y el gateway
+<img src="lxc6.png" alt="">
+
+* Se deja predeterminado
+<img src="lxc7.png" alt="">
+
+* Revisamos y le damos a terminar
+<img src="lxc8.png" alt="">
