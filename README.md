@@ -245,23 +245,11 @@ pveam download compartido debian-12-turnkey-zoneminder_18.0-1_amd64.tar.gz
 
 * Contenedor1:
   
-  
+<img src="lxc1.png" alt=""> 
+ 
+<img src="lxc2.png" alt="">
 
+<img src="lxc3.png" alt="">
 
-bash
-apt update && apt install nginx -y
-systemctl start nginx
-Contenedor2 (en pve2):
+<img src="lxc4.png" alt="">
 
-ID: 102.
-
-Instalar SSH:
-
-bash
-apt install openssh-server -y
-systemctl start ssh
-Verificar desde Host (Hyper-V):
-
-Web: http://<IP-Contenedor1> (debe mostrar página de nginx).
-
-SSH: ssh root@<IP-Contenedor2>.
