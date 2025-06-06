@@ -273,3 +273,4 @@ pveam download compartido debian-12-turnkey-zoneminder_18.0-1_amd64.tar.gz
 
 <img src="lxc9.png" alt="">
 
+<img src="lxc10.png" alt="">
