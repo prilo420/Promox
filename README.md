@@ -186,12 +186,35 @@ sudo systemctl restart nfs-kernel-server.
 
 ---
   
-## Creamos Contenedores LXC
+## Creacion y configuacion de Contenedores LXC
 
-1. Descargamos la Plantilla:
-* Nodo Proxmox: local (pve) -> CT Templates -> Templates (ej: Debian 12).
+1. configuramos la conexion a internet en los Contenedores:
+* Configuramos este archivo /etc/network/interfaces
+```
+sudo nano  /etc/network/interfaces
+```
+```
+auto vmbr1
+iface vmbr1 inet statict
+    address 172.30.240.10
+    netmask 255.255.0.0
+    bridge_ports none
+    bridge_stp off
+    bridge_fd 0
+    post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+    post-up iptables -t nat -A POSTROUTING -s '172.30.240.0/20' -o vmbr0  -j MASQUERADE
+    post-down iptables -t nat -D POSTROUTING -s '172.30.240.0/20' -0 vmbr0 -j MASQUERADE
+```
 
-2. Crear Contenedores:
+<img src="co1.png" alt="">
+
+* Ahora configuramos este arhcivo /etc/sysctl.conf y descomentamos esto
+```
+net.ipv4.ip_forward=1
+```
+<img src="co2.png" alt="">
+
+3. Crear Contenedores:
 
 Contenedor1 (en pve1):
 
